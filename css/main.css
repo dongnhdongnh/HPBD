@@ -168,14 +168,15 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background-image: url("../images/background.JPG");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;    
+
 }
 
 .wrap-login100 {
+  background-image: url("images/background.JPG");
   width: 960px;
   background: #fff;
   border-radius: 10px;
