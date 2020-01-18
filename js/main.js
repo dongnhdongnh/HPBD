@@ -17,7 +17,7 @@
             }
         }
         if(check == true)
-        {window.location.href = 'http://www.google.com';}
+        {window.location.href = 'puzzle1.html';}
         return false;
     });
 
@@ -36,7 +36,7 @@
             }
         }
         else {
-            if($(input).val().trim() == 'muoinhanmuoi'){
+            if($(input).val().trim() == 'hadong4everchut'){
                 return true;
             }
             return false;
