@@ -17,7 +17,8 @@
             }
         }
       
-	
+	   if(check == true)
+        {window.location.href = 'puzzle1.html';}
         return false;
     });
 
@@ -36,16 +37,10 @@
             }
         }
         else {
-            if($(input).val().trim() == '1')
-				 document.getElementById('lbltipAddedComment').innerText   = 'okok1';
-				   if($(input).val().trim() == '2')
-				 document.getElementById('lbltipAddedComment').innerText   = 'okok2';
-				   if($(input).val().trim() == '3')
-				 document.getElementById('lbltipAddedComment').innerText   = 'okok3';
-				 
-               
-            
-            return true;
+              if($(input).val().trim() == 'anp7dlcikt'){
+                return true;
+            }
+            return false;
         }
     }
 
