@@ -36,15 +36,15 @@
             }
         }
         else {
-            if($(input).val().trim() == '1'){
+            if($(input).val().trim() == '1')
 				 document.getElementById('lbltipAddedComment').innerText   = 'okok1';
-				   if($(input).val().trim() == '2'){
+				   if($(input).val().trim() == '2')
 				 document.getElementById('lbltipAddedComment').innerText   = 'okok2';
-				   if($(input).val().trim() == '3'){
+				   if($(input).val().trim() == '3')
 				 document.getElementById('lbltipAddedComment').innerText   = 'okok3';
 				 
                 return true;
-            }
+            
             return false;
         }
     }
