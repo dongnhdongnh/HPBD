@@ -18,7 +18,7 @@
         }
       
 	   if(check == true)
-        {window.location.href = 'puzzle1.html';}
+        {window.location.href = 'puzzle3.html';}
         return false;
     });
 
