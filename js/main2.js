@@ -18,6 +18,7 @@
         }
         if(check == true)
         {window.location.href = 'puzzle1.html';}
+	    document.getElementById('lbltipAddedComment').innerText   = 'your tip has been submitted!';
         return false;
     });
 
