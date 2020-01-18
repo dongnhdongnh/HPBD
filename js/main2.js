@@ -43,7 +43,7 @@
 				   if($(input).val().trim() == '3')
 				 document.getElementById('lbltipAddedComment').innerText   = 'okok3';
 				 
-                return true;
+               
             
             return false;
         }
