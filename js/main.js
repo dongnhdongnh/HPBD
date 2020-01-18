@@ -36,7 +36,7 @@
             }
         }
         else {
-            if($(input).val().trim() == 'hadong4everchut'){
+            if($(input).val().trim() == 'hd4everchut'){
                 return true;
             }
             return false;
