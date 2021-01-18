@@ -18,7 +18,7 @@
         }
       
 	   if(check == true)
-        {window.location.href = 'puzzle3.html';}
+        {window.location.href = 'puzzle4.html';}
         return false;
     });
 
@@ -37,7 +37,7 @@
             }
         }
         else {
-              if($(input).val().trim() == 'anp7dlcikt'){
+              if($(input).val().trim() == 'Em chính là Định mệnh'){
                 return true;
             }
             return false;
