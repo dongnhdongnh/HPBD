@@ -168,7 +168,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-image: url("../images/background.JPG");
+  background-image: url("../images/a1.JPEG");
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;    
@@ -176,7 +176,7 @@ iframe {
 }
 
 .wrap-login100 {
-  background-image: url("images/background.JPG");
+  background-image: url("images/a1.JPEG");
   width: 960px;
   background: #fff;
   border-radius: 10px;

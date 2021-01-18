@@ -36,7 +36,7 @@
             }
         }
         else {
-            if($(input).val().trim() == 'hd4everchut'){
+            if($(input).val().trim() == 'YÊU EM RẤT NHIỀU'){
                 return true;
             }
             return false;
