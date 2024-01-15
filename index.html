@@ -23,9 +23,14 @@
 </head>
 <body>
 	<video autoplay loop muted>
-    <source type="video/mp4" src="https://tinyurl.com/y5x5jmnf">
-    <source type="video/webm" src="https://tinyurl.com/y6q5jxr6">
+    <source type="video/mp4" src="mp4/bg.mp4">
+    <source type="video/webm" src="mp4/bg.mp4">
 </video>
+<audio controls autoplay>
+  <source src="mp4/bg.mp3" type="audio/ogg">
+  <source src="mp4/bg.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -35,7 +40,8 @@
 
 				<form class="login100-form validate-form">
 					<span class="login100-form-title">
-						Happy Birthday
+						Happy Birthday</br>
+						Chúc mừng sinh nhật mèo iu
 					</span>
 
 				<!--	<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -45,7 +51,15 @@
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 					</div>   -->
-                    1.Dòng cuối cùng trong thiệp mừng sinh nhật của anh? 
+               
+					Mèo và anh đã cùng trải qua 1 năm với rất nhiều niềm vui và sự tiến bộ </br>
+					Một tuổi mới lại đến và mèo với anh lại ở bên nhau</br>
+					Anh chúc mèo những điều tốt đẹp nhất,chỉ cần luôn bên nhau chúng ta sẽ vượt qua tất cả </br>
+					Anh sẽ luôn là vệ sĩ bảo vệ em mọi lúc mọi nơi </br>
+					<b>YÊU EM RẤT NHIỀU</b></br></br>
+					Mật mã đi đến quà tặng của mèo sẽ được bật bí vào ngày <b>18/1/2024</b></br></br>
+		            <b><div id="demo"></div></b>
+		
 					<div class="wrap-input100 validate-input" data-validate = "sai Password">
 						<input class="input100" type="" name="pass" placeholder="">
 						<span class="focus-input100"></span>
@@ -97,6 +111,36 @@
 			scale: 1.1
 		})
 	</script>
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 18, 2024 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML ="Mèo đợi " +days + " Ngày " + hours + " Giờ "
+  + minutes + " Phút " + seconds + " Giây nữa nha ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
