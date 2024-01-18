@@ -36,7 +36,7 @@
             }
         }
         else {
-            if($(input).val().trim() == 'YÊU EM RẤT NHIỀU'){
+            if($(input).val().trim() == 'cám ơn em'){
                 return true;
             }
             return false;
